@@ -1,0 +1,35 @@
+name: Update Syllabus Data
+
+on:
+  workflow_dispatch: # Allows manual trigger button
+
+permissions:
+  contents: write # Important: Allows the script to push changes back to the repo
+
+jobs:
+  generate-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install Dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run Gemini Script
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/fetch_syllabus.py
+
+      - name: Commit and Push Data
+        run: |
+          git config --global user.name 'SyllabusBot'
+          git config --global user.email 'bot@noreply.github.com'
+          git add data/syllabus_data.json
+          git commit -m "Auto-update: Fresh syllabus from Gemini" || echo "No changes to commit"
+          git push
