@@ -1,0 +1,173 @@
+{
+  "Science": {
+    "Engineering": {
+      "master": {
+        "name": "JEE Main",
+        "description": "The unified entrance test for admission to NITs, IIITs, and other centrally funded technical institutions, also a qualifying exam for JEE Advanced. Syllabus based on NCERT Class 11 & 12.",
+        "syllabus": {
+          "Physics": [
+            "Kinematics",
+            "Laws of Motion",
+            "Work, Power & Energy",
+            "Rotational Motion",
+            "Gravitation",
+            "Thermodynamics",
+            "Electrostatics",
+            "Current Electricity",
+            "Magnetic Effects of Current & Magnetism",
+            "Optics",
+            "Modern Physics"
+          ],
+          "Maths": [
+            "Algebra (Complex Numbers, Quadratic Equations, Sequences & Series, Permutations & Combinations, Binomial Theorem, Matrices & Determinants)",
+            "Calculus (Limits, Continuity & Differentiability, Applications of Derivatives, Indefinite & Definite Integrals, Differential Equations)",
+            "Coordinate Geometry (Straight Lines, Conic Sections)",
+            "Vectors & 3D Geometry",
+            "Probability"
+          ],
+          "Chemistry": [
+            "Physical Chemistry (Atomic Structure, Chemical Bonding, States of Matter, Thermodynamics, Equilibrium, Electrochemistry, Chemical Kinetics)",
+            "Inorganic Chemistry (Periodicity, s-block, p-block, d-block, f-block, Coordination Compounds)",
+            "Organic Chemistry (Basic Principles, Hydrocarbons, Oxygen & Nitrogen containing compounds, Biomolecules, Polymers, Chemistry in Everyday Life)"
+          ]
+        }
+      },
+      "satellites": [
+        {
+          "name": "BITSAT",
+          "deviation": "Adds English Proficiency and Logical Reasoning. Focuses more on speed and accuracy due to negative marking and faster pace."
+        },
+        {
+          "name": "VITEEE",
+          "deviation": "Includes an Aptitude section with specific sub-sections like English and Critical Thinking. Question level is generally considered easier than JEE Main."
+        }
+      ]
+    },
+    "Medical": {
+      "master": {
+        "name": "NEET UG",
+        "description": "The single entrance test for admission to MBBS/BDS/AYUSH courses in India, conducted by NTA.",
+        "syllabus": {
+          "Biology": [
+            "Diversity in Living World",
+            "Cell Structure & Function",
+            "Plant Physiology",
+            "Human Physiology",
+            "Reproduction",
+            "Genetics and Evolution",
+            "Biology & Human Welfare",
+            "Biotechnology",
+            "Ecology"
+          ],
+          "Physics": [
+            "Mechanics (Kinematics, Laws of Motion, Work, Power & Energy, Gravitation, Properties of Bulk Matter)",
+            "Thermodynamics",
+            "Oscillations & Waves",
+            "Electrodynamics (Electrostatics, Current Electricity, Magnetic Effects, EMI, AC)",
+            "Optics",
+            "Modern Physics (Dual Nature, Atoms, Nuclei, Electronic Devices)"
+          ],
+          "Chemistry": [
+            "Physical Chemistry (Some Basic Concepts, Atomic Structure, Chemical Bonding, States of Matter, Thermodynamics, Solutions, Equilibrium, Redox Reactions, Electrochemistry, Chemical Kinetics, Surface Chemistry)",
+            "Inorganic Chemistry (Classification of Elements, s-block, p-block, d-block, f-block, Coordination Compounds)",
+            "Organic Chemistry (Basic Principles, Hydrocarbons, Oxygen & Nitrogen containing compounds, Biomolecules, Polymers, Chemistry in Everyday Life)"
+          ]
+        }
+      },
+      "satellites": [
+        {
+          "name": "AIIMS B.Sc. Nursing / Paramedical",
+          "deviation": "Includes General Knowledge and Aptitude sections in addition to Physics, Chemistry, and Biology. Focuses on nursing and allied health professions."
+        }
+      ]
+    }
+  },
+  "Commerce": {
+    "General": {
+      "master": {
+        "name": "CUET (Commerce)",
+        "description": "Common University Entrance Test for admission to various undergraduate commerce programs in central and participating universities. Candidates select domain-specific subjects.",
+        "syllabus": {
+          "Accountancy": [
+            "Accounting for Partnership Firms (Fundamentals, Reconstitution, Dissolution)",
+            "Accounting for Companies (Share Capital, Debentures)",
+            "Analysis of Financial Statements",
+            "Cash Flow Statement",
+            "Computerized Accounting"
+          ],
+          "Economics": [
+            "Microeconomics (Consumer Behaviour, Producer Behaviour, Market Forms)",
+            "Macroeconomics (National Income, Money & Banking, Government Budget, BoP)",
+            "Indian Economic Development (Development Experience, Reforms, Challenges)",
+            "Statistics for Economics"
+          ],
+          "Business Studies": [
+            "Nature & Significance of Management",
+            "Principles of Management",
+            "Business Environment",
+            "Planning & Organising",
+            "Staffing, Directing & Controlling",
+            "Financial Management",
+            "Marketing Management",
+            "Consumer Protection"
+          ]
+        }
+      },
+      "satellites": [
+        {
+          "name": "IPMAT (IIM Indore/Rohtak)",
+          "deviation": "Focuses heavily on Higher Mathematics (Quantitative Ability, including advanced topics like Functions, Logarithms, P&C, Probability beyond Class 12 standard) and Verbal Ability, alongside Logical Reasoning. Designed for integrated management programs."
+        },
+        {
+          "name": "SET (Symbiosis Entrance Test)",
+          "deviation": "Covers General English, Quantitative Aptitude, General Awareness, and Analytical & Logical Reasoning. For BBA and other undergraduate programs at Symbiosis International University."
+        }
+      ]
+    }
+  },
+  "Arts": {
+    "Humanities": {
+      "master": {
+        "name": "CUET (Arts)",
+        "description": "Standardized test for admission to various undergraduate Arts/Humanities programs in central and participating universities. Candidates select domain-specific subjects.",
+        "syllabus": {
+          "History": [
+            "Indus Valley Civilization (Harappan Archaeology)",
+            "Early States & Empires (Maurya, Gupta)",
+            "Medieval Societies (Religious Ideas, Mughal Empire)",
+            "Colonialism & Rural Societies",
+            "Mahatma Gandhi & the Nationalist Movement",
+            "Partitioning India"
+          ],
+          "Political Science": [
+            "Cold War Era & Non-Alignment Movement",
+            "End of Bipolarity",
+            "New Centres of Power",
+            "UN & its Reforms",
+            "Challenges of Nation-Building",
+            "Indian Politics (Party System, Democratic Upsurge, Regional Aspirations)",
+            "Environment & Globalisation"
+          ],
+          "Geography": [
+            "Human Geography: Nature & Scope",
+            "Population, Migration, Human Development",
+            "Primary, Secondary, Tertiary Activities",
+            "Transport & Communication",
+            "India: People & Economy (Population, Human Settlements, Resources, Planning)",
+            "Geographical Perspective on Selected Issues and Problems"
+          ]
+        }
+      },
+      "satellites": [
+        {
+          "name": "CLAT (Common Law Admission Test)",
+          "deviation": "Completely different format: Legal Reasoning, Logical Reasoning, Current Affairs including General Knowledge, English Language, and Quantitative Techniques. Designed for 5-year Integrated LLB programs."
+        },
+        {
+          "name": "SET (Symbiosis Entrance Test - General)",
+          "deviation": "Covers General English, Quantitative Aptitude, General Awareness, and Analytical & Logical Reasoning. For BA, BCA, and other undergraduate programs at Symbiosis International University."
+        }
+      ]
+    }
+  }
+}
